@@ -46,8 +46,8 @@ st.markdown("""
         background: #444;
         display: inline-block;
     }
-    .step-dot.active { background: #00000; }
-    .step-dot.done  { background: #C5C7C4; }
+    .step-dot.active { background: #C5C7C4; }
+    .step-dot.done  { background: #000000; }
 
     /* Category header colors */
     .cat-water     { color: #4285F4 !important; }
