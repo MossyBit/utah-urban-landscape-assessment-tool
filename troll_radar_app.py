@@ -46,11 +46,11 @@ st.markdown("""
         background: #444;
         display: inline-block;
     }
-    .step-dot.active { background: #4285F4; }
-    .step-dot.done  { background: #2A9D8F; }
+    .step-dot.active { background: #00000; }
+    .step-dot.done  { background: #C5C7C4; }
 
     /* Category header colors */
-    .cat-water     { color: #4FC3F7 !important; }
+    .cat-water     { color: #4285F4 !important; }
     .cat-ecosystem { color: #2E7D32 !important; }
     .cat-design    { color: #FFA726 !important; }
 
