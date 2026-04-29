@@ -197,8 +197,8 @@ def build_radar_figure(scores_dict):
 
     # ── FIGURE ────────────────────────────────────────────────────────────────
     fig, ax = plt.subplots(figsize=(11, 11), subplot_kw=dict(polar=True))
-    fig.patch.set_facecolor("#25262B")
-    ax.set_facecolor("#25262B")
+    fig.patch.set_facecolor("#ffffff")
+    ax.set_facecolor("#ffffff")
     ax.set_theta_offset(np.pi / 2)
     ax.set_theta_direction(-1)
 
@@ -232,8 +232,8 @@ def build_radar_figure(scores_dict):
     # Grid
     ax.set_ylim(-.2, CAT_R)
     ax.set_yticks([0, 0.2, 0.4, 0.6, 0.8, 1.0])
-    ax.set_yticklabels(["0%","20%","40%","60%","80%","100%"], color="white", size=7.5)
-    ax.grid(color="white", linestyle="-", linewidth=0.5, alpha=0.7)
+    ax.set_yticklabels(["0","1","2","3","4","5"], color="black", size=7.5)
+    ax.grid(color="black", linestyle="-", linewidth=0.5, alpha=0.7)
     ax.spines["polar"].set_visible(False)
     ax.set_xticks([])
 
@@ -274,7 +274,7 @@ def build_radar_figure(scores_dict):
              ha="center", va="center", fontsize=15, fontweight="bold",
              color=CATEGORIES["DESIGN AND MANAGEMENT"]["color"])
 
-    ax.set_title("Urban Landscape Assessment", size=24, color="white",
+    ax.set_title("Urban Landscape Assessment", size=24, color="black",
                  fontweight="bold", pad=150)
 
     return fig
