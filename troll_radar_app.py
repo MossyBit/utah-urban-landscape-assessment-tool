@@ -29,9 +29,9 @@ st.set_page_config(
 # Page-specific styles belong in the page files themselves.
 st.markdown("""
 <style>
-    /* Dark background to match the chart aesthetic */
+    /* Light Background */
     .stApp { background-color: #ffffff; color: #1a1b1e; }
-    .stApp h1, .stApp h2, .stApp h3 { color: #ffffff; }
+    .stApp h1, .stApp h2, .stApp h3 { color: #000000; }
 
     /* Progress step indicator */
     .step-indicator {
@@ -83,7 +83,7 @@ if "scores" not in st.session_state:
     }
 
 # ── HEADER ────────────────────────────────────────────────────────────────────
-st.title("🌿 Urban Landscape Assessment")
+st.title("🌳 Urban Landscape Assessment")
 st.caption("TROLL Radar Plot — step through each category to enter your scores.")
 st.divider()
 
