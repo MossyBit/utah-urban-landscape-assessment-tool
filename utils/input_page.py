@@ -58,7 +58,7 @@ def page_category(step_idx):
     """, unsafe_allow_html=True)
 
     for label, key in zip(cat["subcategories"], cat["keys"]):
-        st.session_state.scores[key] = st.slider(
+        st.session_state.scores[key] = st.pills(
             label=label,
             min_value=0,
             max_value=5,
