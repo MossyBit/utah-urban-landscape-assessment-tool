@@ -83,7 +83,7 @@ if "scores" not in st.session_state:
     }
 
 # ── HEADER ────────────────────────────────────────────────────────────────────
-st.title("🌳 Urban Landscape Assessment")
+st.title("🌳 Utah Urban Landscape Assessment")
 st.caption("TROLL Radar Plot — step through each category to enter your scores.")
 st.divider()
 
