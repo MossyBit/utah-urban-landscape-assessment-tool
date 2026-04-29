@@ -14,8 +14,8 @@
 import streamlit as st
 
 from data import CATEGORIES, CAT_NAMES
-from pages.input_page import page_category
-from pages.results_page import page_review
+from utils.input_page import page_category
+from utils.results_page import page_review
 
 # ── PAGE CONFIG ───────────────────────────────────────────────────────────────
 st.set_page_config(
