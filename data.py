@@ -41,7 +41,7 @@ CATEGORIES = {
             "Urban Heat Reduction",
             "Wildlife & Pollinator Support",
         ],
-        "color": "#2A9D8F",
+        "color": "#2E7D32",
         "keys": [
             "SoilHealth",
             "BiodiversityBiomass",
@@ -61,7 +61,7 @@ CATEGORIES = {
             "Physical & Social Wellbeing",
             "Mental Wellbeing",
         ],
-        "color": "#E9C46A",
+        "color": "#FFA726",
         "keys": [
             "EnergyConsumption",
             "LightPollution",
