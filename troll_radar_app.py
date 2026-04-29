@@ -19,8 +19,8 @@ from pages.results_page import page_review
 
 # ── PAGE CONFIG ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Urban Landscape Assessment",
-    page_icon="🌿",
+    page_title="Utah Urban Landscape Assessment",
+    page_icon="🌳",
     layout="centered"
 )
 
@@ -56,7 +56,7 @@ st.markdown("""
 
     /* Score guide box */
     .score-guide {
-        background: #25262B;
+        background: #ffffff;
         border-radius: 8px;
         padding: 0.75rem 1rem;
         font-size: 0.8rem;
