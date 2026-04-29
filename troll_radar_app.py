@@ -50,8 +50,8 @@ st.markdown("""
     .step-dot.done  { background: #2A9D8F; }
 
     /* Category header colors */
-    .cat-water     { color: #4285F4 !important; }
-    .cat-ecosystem { color: #2A9D8F !important; }
+    .cat-water     { color: #4FC3F7 !important; }
+    .cat-ecosystem { color: #2E7D32 !important; }
     .cat-design    { color: #FFA726 !important; }
 
     /* Score guide box */
