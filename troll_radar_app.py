@@ -30,7 +30,7 @@ st.set_page_config(
 st.markdown("""
 <style>
     /* Dark background to match the chart aesthetic */
-    .stApp { background-color: #1a1b1e; color: #e0e0e0; }
+    .stApp { background-color: #ffffff; color: #e0e0e0; }
     .stApp h1, .stApp h2, .stApp h3 { color: #ffffff; }
 
     /* Progress step indicator */
