@@ -52,7 +52,7 @@ st.markdown("""
     /* Category header colors */
     .cat-water     { color: #4285F4 !important; }
     .cat-ecosystem { color: #2A9D8F !important; }
-    .cat-design    { color: #E9C46A !important; }
+    .cat-design    { color: #FFA726 !important; }
 
     /* Score guide box */
     .score-guide {
