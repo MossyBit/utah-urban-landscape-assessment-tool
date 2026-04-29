@@ -43,7 +43,7 @@ st.markdown("""
     .step-dot {
         width: 12px; height: 12px;
         border-radius: 50%;
-        background: #444;
+        background: #C5C7C4;
         display: inline-block;
     }
     .step-dot.active { background: #000000; }
