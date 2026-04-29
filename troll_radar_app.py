@@ -31,7 +31,7 @@ st.markdown("""
 <style>
     /* Light Background */
     .stApp { background-color: #ffffff; color: #1a1b1e; }
-    .stApp h1, .stApp h2, .stApp h3 { color: #000000; }
+    .stApp h1, .stApp h2, .stApp h3 { color: #000000; text-align: center;}
 
     /* Progress step indicator */
     .step-indicator {
