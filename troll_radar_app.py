@@ -63,6 +63,10 @@ st.markdown("""
         color: #aaa;
         margin-bottom: 1.5rem;
     }
+
+    button[kind="pills"] {
+        border-color: #555 !important;
+
 </style>
 """, unsafe_allow_html=True)
 
