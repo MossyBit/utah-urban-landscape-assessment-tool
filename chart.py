@@ -96,7 +96,7 @@ def build_radar_figure(scores_dict):
         nrows=2, ncols=1,
         height_ratios=[1, 1],
         figure=fig,
-        hspace=0.5
+        hspace=0.2
     )
 
     # ── Summary row: 3 side-by-side columns ──────────────────────────────────
