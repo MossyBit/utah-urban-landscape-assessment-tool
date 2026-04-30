@@ -94,9 +94,9 @@ def build_radar_figure(scores_dict):
 
     outer_gs = gridspec.GridSpec(
         nrows=2, ncols=1,
-        height_ratios=[1, 3],
+        height_ratios=[1, 2],
         figure=fig,
-        hspace=0.5
+        hspace=0.75
     )
 
     # ── Summary row: 3 side-by-side columns ──────────────────────────────────
