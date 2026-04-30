@@ -134,7 +134,7 @@ def build_radar_figure(scores_dict):
         # This visually separates the three category panels
         import matplotlib.patches as mpatches
         border = mpatches.FancyBboxPatch(
-            (0.02, 0.02), 0.96, 0.96,
+            (0.02, 0.25), 0.96, 0.71,
             boxstyle="round,pad=0.01",
             linewidth=1, edgecolor="#000000",
             facecolor="#ffffff",
