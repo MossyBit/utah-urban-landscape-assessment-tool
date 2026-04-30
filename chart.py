@@ -277,13 +277,13 @@ def build_radar_figure(scores_dict):
         spoke_index += n_sub
 
     # ── Category title labels ─────────────────────────────────────────────────
-    fig.text(0.81, 0.525, "WATER CONSERVATION",
+    fig.text(0.81, 0.520, "WATER CONSERVATION",
              ha="center", va="center", fontsize=13, fontweight="bold",
              color=CATEGORIES["WATER CONSERVATION"]["color"])
     fig.text(0.52,  0.0, "ECOSYSTEM SERVICES",
              ha="center", va="center", fontsize=13, fontweight="bold",
              color=CATEGORIES["ECOSYSTEM SERVICES"]["color"])
-    fig.text(0.19, 0.525, "DESIGN AND MANAGEMENT",
+    fig.text(0.19, 0.520, "DESIGN AND MANAGEMENT",
              ha="center", va="center", fontsize=13, fontweight="bold",
              color=CATEGORIES["DESIGN AND MANAGEMENT"]["color"])
 
