@@ -280,7 +280,5 @@ def build_radar_figure(scores_dict):
              ha="center", va="center", fontsize=13, fontweight="bold",
              color=CATEGORIES["DESIGN AND MANAGEMENT"]["color"])
 
-    ax_radar.set_title("Urban Landscape Assessment", size=24, color="black",
-                       fontweight="bold", pad=150)
 
     return fig
