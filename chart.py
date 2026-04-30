@@ -203,10 +203,10 @@ def build_radar_figure(scores_dict):
     # We use figure coordinates (0-1 across the whole figure) rather than
     # axes coordinates since this text spans all three columns.
     fig.text(
-        0.5, 0.665,
-        f"OVERALL TOTAL:  {grand_total} / {grand_max}",
+        0.5, 0.92,
+        f"SCORE:  {grand_total} / {grand_max}",
         ha="center", va="top",
-        fontsize=10, fontweight="bold", color="#333333"
+        fontsize=12, fontweight="bold", color="#333333"
     )
 
     # ── Radar axes ────────────────────────────────────────────────────────────
