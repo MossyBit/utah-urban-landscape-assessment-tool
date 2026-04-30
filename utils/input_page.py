@@ -40,23 +40,6 @@ GENERIC_DESCRIPTIONS = {
     5: "Exemplary — best practice, could serve as a model site.",
 }
 
-st.markdown(
-    f"""
-    <style>
-        button[kind="pills"] {{
-            border-color: {cat["color"]} !important;
-            color: {cat["color"]} !important;
-        }}
-        button[kind="pills"][aria-pressed="true"] {{
-            background-color: {cat["color"]} !important;
-            color: white !important;
-            border-color: {cat["color"]} !important;
-        }}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 
 def get_description(subcategory_label, score):
     """
@@ -115,6 +98,24 @@ def page_category(step_idx):
         5 = Exemplary
     </div>
     """, unsafe_allow_html=True)
+
+    st.markdown(
+    f"""
+    <style>
+        button[kind="pills"] {{
+            border-color: {cat["color"]} !important;
+            color: {cat["color"]} !important;
+        }}
+        button[kind="pills"][aria-pressed="true"] {{
+            background-color: {cat["color"]} !important;
+            color: white !important;
+            border-color: {cat["color"]} !important;
+        }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+    
 
     # ── One pill selector per subcategory ─────────────────────────────────────
     # st.pills() renders a row of clickable rounded buttons.
