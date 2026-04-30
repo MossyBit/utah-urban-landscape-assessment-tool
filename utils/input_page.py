@@ -40,6 +40,23 @@ GENERIC_DESCRIPTIONS = {
     5: "Exemplary — best practice, could serve as a model site.",
 }
 
+st.markdown(
+    f"""
+    <style>
+        button[kind="pills"] {{
+            border-color: {cat["color"]} !important;
+            color: {cat["color"]} !important;
+        }}
+        button[kind="pills"][aria-pressed="true"] {{
+            background-color: {cat["color"]} !important;
+            color: white !important;
+            border-color: {cat["color"]} !important;
+        }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
 def get_description(subcategory_label, score):
     """
