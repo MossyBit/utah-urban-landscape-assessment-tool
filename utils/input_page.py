@@ -99,11 +99,10 @@ def page_category(step_idx):
     </div>
     """, unsafe_allow_html=True)
 
-    
     st.markdown(
     f"""
     <style>
-        button[kind="pills"][aria-pressed="true"] {{
+        div[data-testid="stPillsButton"] button[aria-pressed="true"] {{
             background-color: {cat["color"]} !important;
             color: white !important;
             border-color: {cat["color"]} !important;
