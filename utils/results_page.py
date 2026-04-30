@@ -70,7 +70,7 @@ def page_review():
             st.pyplot(fig)
 
             st.download_button(
-                label="⬇ Download PNG",
+                label="Download PNG",
                 data=buf,
                 file_name="urban_landscape_radar.png",
                 mime="image/png",
