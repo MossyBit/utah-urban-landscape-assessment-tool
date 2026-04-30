@@ -206,7 +206,7 @@ def build_radar_figure(scores_dict):
         0.5, 0.92,
         f"SCORE:  {grand_total} / {grand_max}",
         ha="center", va="top",
-        fontsize=12, fontweight="bold", color="#333333"
+        fontsize=16, fontweight="bold", color="#333333"
     )
 
     # ── Radar axes ────────────────────────────────────────────────────────────
@@ -277,13 +277,13 @@ def build_radar_figure(scores_dict):
         spoke_index += n_sub
 
     # ── Category title labels ─────────────────────────────────────────────────
-    fig.text(0.78, 0.63, "WATER CONSERVATION",
+    fig.text(0.78, 0.4, "WATER CONSERVATION",
              ha="center", va="center", fontsize=13, fontweight="bold",
              color=CATEGORIES["WATER CONSERVATION"]["color"])
-    fig.text(0.5,  0.03, "ECOSYSTEM SERVICES",
+    fig.text(0.5,  -0.1, "ECOSYSTEM SERVICES",
              ha="center", va="center", fontsize=13, fontweight="bold",
              color=CATEGORIES["ECOSYSTEM SERVICES"]["color"])
-    fig.text(0.22, 0.63, "DESIGN AND MANAGEMENT",
+    fig.text(0.22, 0.4, "DESIGN AND MANAGEMENT",
              ha="center", va="center", fontsize=13, fontweight="bold",
              color=CATEGORIES["DESIGN AND MANAGEMENT"]["color"])
 
