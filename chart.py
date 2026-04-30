@@ -161,7 +161,7 @@ def build_radar_figure(scores_dict):
             ax_col.text(
                 0.06, y_cursor, sub_label,
                 ha="left", va="top",
-                fontsize=7.5, color="#444444",
+                fontsize=7.5, color="#ffffff",
                 transform=ax_col.transAxes
             )
             # Score bar + number
