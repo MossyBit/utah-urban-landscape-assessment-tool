@@ -99,13 +99,10 @@ def page_category(step_idx):
     </div>
     """, unsafe_allow_html=True)
 
+    
     st.markdown(
     f"""
     <style>
-        button[kind="pills"] {{
-            border-color: {cat["color"]} !important;
-            color: {cat["color"]} !important;
-        }}
         button[kind="pills"][aria-pressed="true"] {{
             background-color: {cat["color"]} !important;
             color: white !important;
@@ -115,7 +112,8 @@ def page_category(step_idx):
     """,
     unsafe_allow_html=True
 )
-    
+
+
 
     # ── One pill selector per subcategory ─────────────────────────────────────
     # st.pills() renders a row of clickable rounded buttons.
