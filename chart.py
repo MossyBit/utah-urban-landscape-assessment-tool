@@ -103,7 +103,14 @@ def build_radar_figure(scores_dict):
     # We nest a second GridSpec inside row 0 to get 3 equal columns.
     # This is called a "nested GridSpec" — it lets you have different
     # grid structures in different parts of the same figure.
+    fig.text(
+    0.5, 0.96,
+    "Urban Landscape Assessment",
+    ha="center", va="top",
+    fontsize=24, fontweight="bold", color="black"
+    )
 
+    
     summary_gs = gridspec.GridSpecFromSubplotSpec(
         nrows=1, ncols=3,
         subplot_spec=outer_gs[0],
