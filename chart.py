@@ -96,7 +96,7 @@ def build_radar_figure(scores_dict):
         nrows=2, ncols=1,
         height_ratios=[1, 1],
         figure=fig,
-        hspace=0.75
+        hspace=0.5
     )
 
     # ── Summary row: 3 side-by-side columns ──────────────────────────────────
@@ -136,7 +136,7 @@ def build_radar_figure(scores_dict):
         border = mpatches.FancyBboxPatch(
             (0.02, 0.25), 0.96, 0.71,
             boxstyle="round,pad=0.01",
-            linewidth=1, edgecolor="#000000",
+            linewidth=1, edgecolor="#ffffff",
             facecolor="#ffffff",
             transform=ax_col.transAxes, zorder=0
         )
