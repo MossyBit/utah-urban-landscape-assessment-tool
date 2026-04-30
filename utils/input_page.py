@@ -58,13 +58,18 @@ def page_category(step_idx):
     """, unsafe_allow_html=True)
 
     for label, key in zip(cat["subcategories"], cat["keys"]):
-        st.session_state.scores[key] = st.pills(
+        selected = st.pills(
             label=label,
-            min_value=0,
-            max_value=5,
-            value=st.session_state.scores[key],
-            key=f"slider_{key}"
+            options=[0, 1, 2, 3, 4, 5],
+            default=current_value,
+            key=f"pills_{key}",
+            selection_mode="single",
         )
+ 
+        # st.pills() returns None if the user deselects everything.
+        # We guard against that by keeping the previous value if None.
+        if selected is not None:
+            st.session_state.scores[key] = selected
 
     st.divider()
 
