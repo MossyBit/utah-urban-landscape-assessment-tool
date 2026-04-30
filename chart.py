@@ -280,10 +280,10 @@ def build_radar_figure(scores_dict):
     fig.text(0.78, 0.525, "WATER CONSERVATION",
              ha="center", va="center", fontsize=13, fontweight="bold",
              color=CATEGORIES["WATER CONSERVATION"]["color"])
-    fig.text(0.5,  0.0, "ECOSYSTEM SERVICES",
+    fig.text(0.51,  0.0, "ECOSYSTEM SERVICES",
              ha="center", va="center", fontsize=13, fontweight="bold",
              color=CATEGORIES["ECOSYSTEM SERVICES"]["color"])
-    fig.text(0.22, 0.525, "DESIGN AND MANAGEMENT",
+    fig.text(0.20, 0.525, "DESIGN AND MANAGEMENT",
              ha="center", va="center", fontsize=13, fontweight="bold",
              color=CATEGORIES["DESIGN AND MANAGEMENT"]["color"])
 
