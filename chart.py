@@ -130,7 +130,7 @@ def build_radar_figure(scores_dict):
             (0.02, 0.02), 0.96, 0.96,
             boxstyle="round,pad=0.01",
             linewidth=1, edgecolor="#eeeeee",
-            facecolor="#fafafa",
+            facecolor="#ffffff",
             transform=ax_col.transAxes, zorder=0
         )
         ax_col.add_patch(border)
@@ -161,7 +161,7 @@ def build_radar_figure(scores_dict):
             ax_col.text(
                 0.06, y_cursor, sub_label,
                 ha="left", va="top",
-                fontsize=7.5, color="#444444",
+                fontsize=7.5, color="#000000",
                 transform=ax_col.transAxes
             )
             # Score bar + number
