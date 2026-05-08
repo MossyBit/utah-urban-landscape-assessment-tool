@@ -19,7 +19,6 @@ CATEGORIES = {
             "Functional Turf Coverage",
             "Turfgrass Species & Management",
             "Non-Turfgrass Areas",
-            "Other Water Conservation",
         ],
         "color": "#4285F4",
         "keys": [
@@ -28,14 +27,12 @@ CATEGORIES = {
             "FunctionalTurfCoverage",
             "TurfgrassSpeciesManagement",
             "NonTurfgrassAreas",
-            "OtherWaterConservation",
         ],
         "css_class": "cat-water",
     },
     "ECOSYSTEM SERVICES": {
         "subcategories": [
             "Soil Health",
-            "Biodiversity & Biomass",
             "Invasive Plants",
             "Native Plants",
             "Urban Heat Reduction",
@@ -44,7 +41,6 @@ CATEGORIES = {
         "color": "#2E7D32",
         "keys": [
             "SoilHealth",
-            "BiodiversityBiomass",
             "InvasivePlants",
             "NativePlants",
             "UrbanHeatReduction",
@@ -54,7 +50,6 @@ CATEGORIES = {
     },
     "DESIGN AND MANAGEMENT": {
         "subcategories": [
-            "Energy Consumption",
             "Light Pollution",
             "Responsible Waste Disposal",
             "Sustainable Care",
@@ -63,7 +58,6 @@ CATEGORIES = {
         ],
         "color": "#FFA726",
         "keys": [
-            "EnergyConsumption",
             "LightPollution",
             "ResponsibleWasteDisposal",
             "SustainableCare",
